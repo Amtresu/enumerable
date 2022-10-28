@@ -12,3 +12,4 @@ class MyList
       @list.each { |value| yield value if block_given? }
     end
   end
+  
